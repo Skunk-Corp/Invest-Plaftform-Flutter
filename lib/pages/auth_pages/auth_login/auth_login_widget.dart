@@ -193,6 +193,26 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
         ),
       ],
     ),
+    'buttonOnPageLoadAnimation3': AnimationInfo(
+      trigger: AnimationTrigger.onPageLoad,
+      effects: [
+        VisibilityEffect(duration: 600.ms),
+        FadeEffect(
+          curve: Curves.easeInOut,
+          delay: 600.ms,
+          duration: 600.ms,
+          begin: 0.0,
+          end: 1.0,
+        ),
+        ScaleEffect(
+          curve: Curves.easeInOut,
+          delay: 600.ms,
+          duration: 600.ms,
+          begin: const Offset(0.8, 0.8),
+          end: const Offset(1.0, 1.0),
+        ),
+      ],
+    ),
     'rowOnPageLoadAnimation3': AnimationInfo(
       trigger: AnimationTrigger.onPageLoad,
       effects: [
@@ -629,62 +649,114 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                                       'buttonOnPageLoadAnimation1']!),
 
                                   // This button does the login flow
-                                  FFButtonWidget(
-                                    onPressed: () async {
-                                      logFirebaseEvent(
-                                          'AUTH_LOGIN_PAGE_Button-Login_ON_TAP');
-                                      GoRouter.of(context).prepareAuthEvent();
+                                  Align(
+                                    alignment: const AlignmentDirectional(0.00, 0.00),
+                                    child: FFButtonWidget(
+                                      onPressed: () async {
+                                        logFirebaseEvent(
+                                            'AUTH_LOGIN_PAGE_Button-Login_ON_TAP');
+                                        GoRouter.of(context).prepareAuthEvent();
 
-                                      final user =
-                                          await authManager.signInWithEmail(
-                                        context,
-                                        _model.emailAddressController.text,
-                                        _model.passwordController.text,
-                                      );
-                                      if (user == null) {
-                                        return;
-                                      }
+                                        final user =
+                                            await authManager.signInWithEmail(
+                                          context,
+                                          _model.emailAddressController.text,
+                                          _model.passwordController.text,
+                                        );
+                                        if (user == null) {
+                                          return;
+                                        }
 
-                                      context.goNamedAuth(
-                                          'Main_Home', context.mounted);
-                                    },
-                                    text: FFLocalizations.of(context).getText(
-                                      'm9klj9ah' /* Login */,
-                                    ),
-                                    options: FFButtonOptions(
-                                      height: 52.0,
-                                      padding: const EdgeInsetsDirectional.fromSTEB(
-                                          44.0, 0.0, 44.0, 0.0),
-                                      iconPadding:
-                                          const EdgeInsetsDirectional.fromSTEB(
-                                              0.0, 0.0, 0.0, 0.0),
-                                      color:
-                                          FlutterFlowTheme.of(context).primary,
-                                      textStyle: FlutterFlowTheme.of(context)
-                                          .titleMedium,
-                                      elevation: 3.0,
-                                      borderSide: const BorderSide(
-                                        color: Colors.transparent,
-                                        width: 1.0,
+                                        context.goNamedAuth(
+                                            'Main_Home', context.mounted);
+                                      },
+                                      text: FFLocalizations.of(context).getText(
+                                        '49frn15v' /* Login */,
                                       ),
-                                      borderRadius: BorderRadius.circular(12.0),
-                                      hoverColor:
-                                          FlutterFlowTheme.of(context).accent1,
-                                      hoverBorderSide: BorderSide(
+                                      options: FFButtonOptions(
+                                        height: 52.0,
+                                        padding: const EdgeInsetsDirectional.fromSTEB(
+                                            44.0, 0.0, 44.0, 0.0),
+                                        iconPadding:
+                                            const EdgeInsetsDirectional.fromSTEB(
+                                                0.0, 0.0, 0.0, 0.0),
                                         color: FlutterFlowTheme.of(context)
                                             .primary,
-                                        width: 1.0,
+                                        textStyle: FlutterFlowTheme.of(context)
+                                            .titleMedium,
+                                        elevation: 3.0,
+                                        borderSide: const BorderSide(
+                                          color: Colors.transparent,
+                                          width: 1.0,
+                                        ),
+                                        borderRadius:
+                                            BorderRadius.circular(12.0),
+                                        hoverColor: FlutterFlowTheme.of(context)
+                                            .accent1,
+                                        hoverBorderSide: BorderSide(
+                                          color: FlutterFlowTheme.of(context)
+                                              .primary,
+                                          width: 1.0,
+                                        ),
+                                        hoverTextColor:
+                                            FlutterFlowTheme.of(context)
+                                                .primaryText,
+                                        hoverElevation: 0.0,
                                       ),
-                                      hoverTextColor:
-                                          FlutterFlowTheme.of(context)
-                                              .primaryText,
-                                      hoverElevation: 0.0,
-                                    ),
-                                  ).animateOnPageLoad(animationsMap[
-                                      'buttonOnPageLoadAnimation2']!),
+                                    ).animateOnPageLoad(animationsMap[
+                                        'buttonOnPageLoadAnimation2']!),
+                                  ),
                                 ],
                               ).animateOnPageLoad(
                                   animationsMap['rowOnPageLoadAnimation2']!),
+                            ),
+
+                            // This button does the login flow
+                            Align(
+                              alignment: const AlignmentDirectional(0.00, 0.00),
+                              child: FFButtonWidget(
+                                onPressed: () async {
+                                  logFirebaseEvent(
+                                      'AUTH_LOGIN_PAGE_Button-Login_ON_TAP');
+                                  GoRouter.of(context).prepareAuthEvent();
+                                  final user = await authManager
+                                      .signInAnonymously(context);
+                                  if (user == null) {
+                                    return;
+                                  }
+
+                                  context.goNamedAuth(
+                                      'Main_Home', context.mounted);
+                                },
+                                text: FFLocalizations.of(context).getText(
+                                  'm9klj9ah' /* Login as Guest */,
+                                ),
+                                options: FFButtonOptions(
+                                  height: 52.0,
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
+                                      44.0, 0.0, 44.0, 0.0),
+                                  iconPadding: const EdgeInsetsDirectional.fromSTEB(
+                                      0.0, 0.0, 0.0, 0.0),
+                                  color: const Color(0xFFB7C2CC),
+                                  textStyle:
+                                      FlutterFlowTheme.of(context).titleMedium,
+                                  elevation: 3.0,
+                                  borderSide: const BorderSide(
+                                    color: Colors.transparent,
+                                    width: 1.0,
+                                  ),
+                                  borderRadius: BorderRadius.circular(12.0),
+                                  hoverColor: const Color(0xFF29D06A),
+                                  hoverBorderSide: BorderSide(
+                                    color: FlutterFlowTheme.of(context).primary,
+                                    width: 1.0,
+                                  ),
+                                  hoverTextColor:
+                                      FlutterFlowTheme.of(context).primaryText,
+                                  hoverElevation: 0.0,
+                                ),
+                              ).animateOnPageLoad(
+                                  animationsMap['buttonOnPageLoadAnimation3']!),
                             ),
                             Padding(
                               padding: const EdgeInsetsDirectional.fromSTEB(
