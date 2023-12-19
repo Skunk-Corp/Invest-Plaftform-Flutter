@@ -111,7 +111,7 @@ class _ModalProjectDetailsWidgetState extends State<ModalProjectDetailsWidget>
               mainAxisSize: MainAxisSize.max,
               children: [
                 Align(
-                  alignment: const AlignmentDirectional(1.00, -1.00),
+                  alignment: const AlignmentDirectional(1.0, -1.0),
                   child: Padding(
                     padding:
                         const EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 0.0),
@@ -140,9 +140,9 @@ class _ModalProjectDetailsWidgetState extends State<ModalProjectDetailsWidget>
           ),
         ),
         Align(
-          alignment: const AlignmentDirectional(1.00, -1.00),
+          alignment: const AlignmentDirectional(1.0, -1.0),
           child: Padding(
-            padding: const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 16.0),
+            padding: const EdgeInsets.all(16.0),
             child: AnimatedContainer(
               duration: const Duration(milliseconds: 100),
               curve: Curves.easeInOut,

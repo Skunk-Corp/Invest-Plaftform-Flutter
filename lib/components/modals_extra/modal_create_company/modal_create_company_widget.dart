@@ -155,7 +155,7 @@ class _ModalCreateCompanyWidgetState extends State<ModalCreateCompanyWidget>
                                 final uploadedImagesItem =
                                     uploadedImages[uploadedImagesIndex];
                                 return Align(
-                                  alignment: const AlignmentDirectional(-1.00, 0.00),
+                                  alignment: const AlignmentDirectional(-1.0, 0.0),
                                   child: InkWell(
                                     splashColor: Colors.transparent,
                                     focusColor: Colors.transparent,
@@ -274,8 +274,7 @@ class _ModalCreateCompanyWidgetState extends State<ModalCreateCompanyWidget>
                                         ),
                                       ),
                                       child: Padding(
-                                        padding: const EdgeInsetsDirectional.fromSTEB(
-                                            2.0, 2.0, 2.0, 2.0),
+                                        padding: const EdgeInsets.all(2.0),
                                         child: ClipRRect(
                                           borderRadius:
                                               BorderRadius.circular(10.0),
@@ -476,7 +475,7 @@ class _ModalCreateCompanyWidgetState extends State<ModalCreateCompanyWidget>
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Align(
-                                alignment: const AlignmentDirectional(0.00, 0.05),
+                                alignment: const AlignmentDirectional(0.0, 0.05),
                                 child: FFButtonWidget(
                                   onPressed: () {
                                     print('Button pressed ...');
@@ -515,7 +514,7 @@ class _ModalCreateCompanyWidgetState extends State<ModalCreateCompanyWidget>
                                 ),
                               ),
                               Align(
-                                alignment: const AlignmentDirectional(0.00, 0.05),
+                                alignment: const AlignmentDirectional(0.0, 0.05),
                                 child: FFButtonWidget(
                                   onPressed: () {
                                     print('Button pressed ...');

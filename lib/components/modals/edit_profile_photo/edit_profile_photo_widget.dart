@@ -1,5 +1,4 @@
 import '/auth/firebase_auth/auth_util.dart';
-import '/backend/backend.dart';
 import '/backend/firebase_storage/storage.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -48,9 +47,9 @@ class _EditProfilePhotoWidgetState extends State<EditProfilePhotoWidget> {
       mainAxisAlignment: MainAxisAlignment.end,
       children: [
         Align(
-          alignment: const AlignmentDirectional(0.00, 1.00),
+          alignment: const AlignmentDirectional(0.0, 1.0),
           child: Padding(
-            padding: const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 16.0),
+            padding: const EdgeInsets.all(16.0),
             child: Container(
               width: MediaQuery.sizeOf(context).width * 1.0,
               height: 350.0,
@@ -69,7 +68,7 @@ class _EditProfilePhotoWidgetState extends State<EditProfilePhotoWidget> {
                 borderRadius: BorderRadius.circular(16.0),
               ),
               child: Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(4.0, 4.0, 4.0, 4.0),
+                padding: const EdgeInsets.all(4.0),
                 child: Column(
                   mainAxisSize: MainAxisSize.max,
                   children: [
@@ -113,7 +112,7 @@ class _EditProfilePhotoWidgetState extends State<EditProfilePhotoWidget> {
                                 ),
                               ),
                               Align(
-                                alignment: const AlignmentDirectional(0.00, 0.00),
+                                alignment: const AlignmentDirectional(0.0, 0.0),
                                 child: Padding(
                                   padding: const EdgeInsetsDirectional.fromSTEB(
                                       0.0, 16.0, 0.0, 16.0),
@@ -139,9 +138,7 @@ class _EditProfilePhotoWidgetState extends State<EditProfilePhotoWidget> {
                                     child: Stack(
                                       children: [
                                         Padding(
-                                          padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
-                                                  4.0, 4.0, 4.0, 4.0),
+                                          padding: const EdgeInsets.all(4.0),
                                           child: AuthUserStreamWidget(
                                             builder: (context) => Container(
                                               width: 120.0,
@@ -162,9 +159,7 @@ class _EditProfilePhotoWidgetState extends State<EditProfilePhotoWidget> {
                                           ),
                                         ),
                                         Padding(
-                                          padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
-                                                  4.0, 4.0, 4.0, 4.0),
+                                          padding: const EdgeInsets.all(4.0),
                                           child: Container(
                                             width: 120.0,
                                             height: 120.0,
@@ -325,15 +320,8 @@ class _EditProfilePhotoWidgetState extends State<EditProfilePhotoWidget> {
                                     ),
                                     Expanded(
                                       child: FFButtonWidget(
-                                        onPressed: () async {
-                                          logFirebaseEvent(
-                                              'EDIT_PROFILE_PHOTO_SAVE_CHANGES_BTN_ON_T');
-
-                                          await currentUserReference!
-                                              .update(createUsersRecordData(
-                                            photoUrl: _model.uploadedFileUrl,
-                                          ));
-                                          Navigator.pop(context);
+                                        onPressed: () {
+                                          print('Button pressed ...');
                                         },
                                         text:
                                             FFLocalizations.of(context).getText(

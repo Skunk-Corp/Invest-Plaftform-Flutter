@@ -324,7 +324,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
       children: [
         Expanded(
           child: Align(
-            alignment: const AlignmentDirectional(0.00, -1.00),
+            alignment: const AlignmentDirectional(0.0, -1.0),
             child: Container(
               width: double.infinity,
               constraints: const BoxConstraints(
@@ -344,7 +344,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                         alignment: const AlignmentDirectional(-0.95, -0.7),
                         children: [
                           Align(
-                            alignment: const AlignmentDirectional(0.00, 0.00),
+                            alignment: const AlignmentDirectional(0.0, 0.0),
                             child: Image.network(
                               'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60',
                               width: double.infinity,
@@ -374,8 +374,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                                     borderRadius: BorderRadius.circular(100.0),
                                   ),
                                   child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
-                                        10.0, 10.0, 10.0, 10.0),
+                                    padding: const EdgeInsets.all(10.0),
                                     child: Icon(
                                       Icons.arrow_back_rounded,
                                       color:
@@ -466,7 +465,7 @@ class _UserDetailsMainWidgetState extends State<UserDetailsMainWidget>
                           color: FlutterFlowTheme.of(context).accent1,
                           borderRadius: BorderRadius.circular(8.0),
                         ),
-                        alignment: const AlignmentDirectional(0.00, 0.00),
+                        alignment: const AlignmentDirectional(0.0, 0.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
                           mainAxisAlignment: MainAxisAlignment.center,

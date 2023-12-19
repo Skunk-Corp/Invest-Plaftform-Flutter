@@ -176,7 +176,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                               color: FlutterFlowTheme.of(context)
                                   .primaryBackground,
                             ),
-                            alignment: const AlignmentDirectional(-1.00, 0.00),
+                            alignment: const AlignmentDirectional(-1.0, 0.0),
                             child: Row(
                               mainAxisSize: MainAxisSize.max,
                               children: [
@@ -246,8 +246,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                               Expanded(
                                 flex: 5,
                                 child: Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
-                                      16.0, 16.0, 16.0, 16.0),
+                                  padding: const EdgeInsets.all(16.0),
                                   child: Container(
                                     width: double.infinity,
                                     constraints: BoxConstraints(
@@ -450,11 +449,8 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                               ),
                                                               child: Padding(
                                                                 padding:
-                                                                    const EdgeInsetsDirectional
-                                                                        .fromSTEB(
-                                                                            2.0,
-                                                                            2.0,
-                                                                            2.0,
+                                                                    const EdgeInsets
+                                                                        .all(
                                                                             2.0),
                                                                 child:
                                                                     ClipRRect(
@@ -638,11 +634,8 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                               ),
                                                               child: Padding(
                                                                 padding:
-                                                                    const EdgeInsetsDirectional
-                                                                        .fromSTEB(
-                                                                            2.0,
-                                                                            2.0,
-                                                                            2.0,
+                                                                    const EdgeInsets
+                                                                        .all(
                                                                             2.0),
                                                                 child:
                                                                     ClipRRect(
@@ -824,11 +817,8 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                               ),
                                                               child: Padding(
                                                                 padding:
-                                                                    const EdgeInsetsDirectional
-                                                                        .fromSTEB(
-                                                                            2.0,
-                                                                            2.0,
-                                                                            2.0,
+                                                                    const EdgeInsets
+                                                                        .all(
                                                                             2.0),
                                                                 child:
                                                                     ClipRRect(
@@ -1079,11 +1069,8 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                   ),
                                                                   child:
                                                                       Padding(
-                                                                    padding: const EdgeInsetsDirectional
-                                                                        .fromSTEB(
-                                                                            8.0,
-                                                                            8.0,
-                                                                            8.0,
+                                                                    padding:
+                                                                        const EdgeInsets.all(
                                                                             8.0),
                                                                     child:
                                                                         Column(
@@ -1092,11 +1079,8 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                               .max,
                                                                       children: [
                                                                         Padding(
-                                                                          padding: const EdgeInsetsDirectional.fromSTEB(
-                                                                              4.0,
-                                                                              4.0,
-                                                                              4.0,
-                                                                              4.0),
+                                                                          padding:
+                                                                              const EdgeInsets.all(4.0),
                                                                           child: SelectionArea(
                                                                               child: AutoSizeText(
                                                                             FFLocalizations.of(context).getText(
@@ -1141,7 +1125,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                     Align(
                                                       alignment:
                                                           const AlignmentDirectional(
-                                                              1.00, 0.00),
+                                                              1.0, 0.0),
                                                       child: Padding(
                                                         padding:
                                                             const EdgeInsetsDirectional
@@ -1211,11 +1195,9 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                     ),
                                                                     child:
                                                                         Padding(
-                                                                      padding: const EdgeInsetsDirectional.fromSTEB(
-                                                                          8.0,
-                                                                          8.0,
-                                                                          8.0,
-                                                                          8.0),
+                                                                      padding:
+                                                                          const EdgeInsets.all(
+                                                                              8.0),
                                                                       child:
                                                                           Column(
                                                                         mainAxisSize:
@@ -1224,11 +1206,8 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                             CrossAxisAlignment.start,
                                                                         children: [
                                                                           Padding(
-                                                                            padding: const EdgeInsetsDirectional.fromSTEB(
-                                                                                4.0,
-                                                                                4.0,
-                                                                                4.0,
-                                                                                4.0),
+                                                                            padding:
+                                                                                const EdgeInsets.all(4.0),
                                                                             child: SelectionArea(
                                                                                 child: Text(
                                                                               FFLocalizations.of(context).getText(
@@ -1355,12 +1334,10 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                   ),
                                                                 ),
                                                                 child: Padding(
-                                                                  padding: const EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          8.0,
-                                                                          8.0,
-                                                                          8.0,
-                                                                          8.0),
+                                                                  padding:
+                                                                      const EdgeInsets
+                                                                          .all(
+                                                                              8.0),
                                                                   child: Column(
                                                                     mainAxisSize:
                                                                         MainAxisSize
@@ -1384,11 +1361,8 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                         ),
                                                                       ),
                                                                       Padding(
-                                                                        padding: const EdgeInsetsDirectional.fromSTEB(
-                                                                            4.0,
-                                                                            4.0,
-                                                                            4.0,
-                                                                            4.0),
+                                                                        padding:
+                                                                            const EdgeInsets.all(4.0),
                                                                         child: SelectionArea(
                                                                             child: AutoSizeText(
                                                                           FFLocalizations.of(context)
@@ -1436,7 +1410,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                     Align(
                                                       alignment:
                                                           const AlignmentDirectional(
-                                                              1.00, 0.00),
+                                                              1.0, 0.0),
                                                       child: Padding(
                                                         padding:
                                                             const EdgeInsetsDirectional
@@ -1510,11 +1484,8 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                   ),
                                                                   child:
                                                                       Padding(
-                                                                    padding: const EdgeInsetsDirectional
-                                                                        .fromSTEB(
-                                                                            8.0,
-                                                                            8.0,
-                                                                            8.0,
+                                                                    padding:
+                                                                        const EdgeInsets.all(
                                                                             8.0),
                                                                     child:
                                                                         Column(
@@ -1552,11 +1523,8 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                           ),
                                                                         ),
                                                                         Padding(
-                                                                          padding: const EdgeInsetsDirectional.fromSTEB(
-                                                                              4.0,
-                                                                              4.0,
-                                                                              4.0,
-                                                                              4.0),
+                                                                          padding:
+                                                                              const EdgeInsets.all(4.0),
                                                                           child: SelectionArea(
                                                                               child: Text(
                                                                             FFLocalizations.of(context).getText(
@@ -1599,7 +1567,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                     Align(
                                                       alignment:
                                                           const AlignmentDirectional(
-                                                              1.00, 0.00),
+                                                              1.0, 0.0),
                                                       child: Padding(
                                                         padding:
                                                             const EdgeInsetsDirectional
@@ -1673,11 +1641,8 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                   ),
                                                                   child:
                                                                       Padding(
-                                                                    padding: const EdgeInsetsDirectional
-                                                                        .fromSTEB(
-                                                                            8.0,
-                                                                            8.0,
-                                                                            8.0,
+                                                                    padding:
+                                                                        const EdgeInsets.all(
                                                                             8.0),
                                                                     child:
                                                                         Column(
@@ -1701,11 +1666,8 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                                           ),
                                                                         ),
                                                                         Padding(
-                                                                          padding: const EdgeInsetsDirectional.fromSTEB(
-                                                                              4.0,
-                                                                              4.0,
-                                                                              4.0,
-                                                                              4.0),
+                                                                          padding:
+                                                                              const EdgeInsets.all(4.0),
                                                                           child: SelectionArea(
                                                                               child: Text(
                                                                             FFLocalizations.of(context).getText(
@@ -1772,9 +1734,7 @@ class _MainMessagesWidgetState extends State<MainMessagesWidget>
                                                   BorderRadius.circular(12.0),
                                             ),
                                             child: Padding(
-                                              padding: const EdgeInsetsDirectional
-                                                  .fromSTEB(
-                                                      12.0, 12.0, 12.0, 12.0),
+                                              padding: const EdgeInsets.all(12.0),
                                               child: Row(
                                                 mainAxisSize: MainAxisSize.max,
                                                 crossAxisAlignment:

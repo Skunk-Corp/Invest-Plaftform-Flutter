@@ -6,9 +6,9 @@ export '/pages/auth_pages/forgot_password/forgot_password_widget.dart'
 export '/pages/auth_pages/auth_create/auth_create_widget.dart'
     show AuthCreateWidget;
 export '/pages/main_pages/main_home/main_home_widget.dart' show MainHomeWidget;
-export '/pages/main_pages/main_customer_list/main_customer_list_widget.dart'
+export '/pages/main_customer_list/main_customer_list_widget.dart'
     show MainCustomerListWidget;
-export '/pages/main_pages/main_contracts/main_contracts_widget.dart'
+export '/pages/main_contracts/main_contracts_widget.dart'
     show MainContractsWidget;
 export '/pages/main_pages/main_messages/main_messages_widget.dart'
     show MainMessagesWidget;

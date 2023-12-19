@@ -6,9 +6,8 @@ import '../flutter_flow/flutter_flow_util.dart';
 import 'schema/util/firestore_util.dart';
 
 import 'schema/users_record.dart';
-import 'schema/cities_record.dart';
-import 'schema/transactions_record.dart';
-import 'schema/lead_capture_record.dart';
+import 'schema/funds_record.dart';
+import 'schema/history_record.dart';
 
 export 'dart:async' show StreamSubscription;
 export 'package:cloud_firestore/cloud_firestore.dart';
@@ -17,9 +16,8 @@ export 'schema/util/firestore_util.dart';
 export 'schema/util/schema_util.dart';
 
 export 'schema/users_record.dart';
-export 'schema/cities_record.dart';
-export 'schema/transactions_record.dart';
-export 'schema/lead_capture_record.dart';
+export 'schema/funds_record.dart';
+export 'schema/history_record.dart';
 
 /// Functions to query UsersRecords (as a Stream and as a Future).
 Future<int> queryUsersRecordCount({
@@ -58,112 +56,78 @@ Future<List<UsersRecord>> queryUsersRecordOnce({
       singleRecord: singleRecord,
     );
 
-/// Functions to query CitiesRecords (as a Stream and as a Future).
-Future<int> queryCitiesRecordCount({
+/// Functions to query FundsRecords (as a Stream and as a Future).
+Future<int> queryFundsRecordCount({
   Query Function(Query)? queryBuilder,
   int limit = -1,
 }) =>
     queryCollectionCount(
-      CitiesRecord.collection,
+      FundsRecord.collection,
       queryBuilder: queryBuilder,
       limit: limit,
     );
 
-Stream<List<CitiesRecord>> queryCitiesRecord({
+Stream<List<FundsRecord>> queryFundsRecord({
   Query Function(Query)? queryBuilder,
   int limit = -1,
   bool singleRecord = false,
 }) =>
     queryCollection(
-      CitiesRecord.collection,
-      CitiesRecord.fromSnapshot,
+      FundsRecord.collection,
+      FundsRecord.fromSnapshot,
       queryBuilder: queryBuilder,
       limit: limit,
       singleRecord: singleRecord,
     );
 
-Future<List<CitiesRecord>> queryCitiesRecordOnce({
+Future<List<FundsRecord>> queryFundsRecordOnce({
   Query Function(Query)? queryBuilder,
   int limit = -1,
   bool singleRecord = false,
 }) =>
     queryCollectionOnce(
-      CitiesRecord.collection,
-      CitiesRecord.fromSnapshot,
+      FundsRecord.collection,
+      FundsRecord.fromSnapshot,
       queryBuilder: queryBuilder,
       limit: limit,
       singleRecord: singleRecord,
     );
 
-/// Functions to query TransactionsRecords (as a Stream and as a Future).
-Future<int> queryTransactionsRecordCount({
+/// Functions to query HistoryRecords (as a Stream and as a Future).
+Future<int> queryHistoryRecordCount({
+  DocumentReference? parent,
   Query Function(Query)? queryBuilder,
   int limit = -1,
 }) =>
     queryCollectionCount(
-      TransactionsRecord.collection,
+      HistoryRecord.collection(parent),
       queryBuilder: queryBuilder,
       limit: limit,
     );
 
-Stream<List<TransactionsRecord>> queryTransactionsRecord({
+Stream<List<HistoryRecord>> queryHistoryRecord({
+  DocumentReference? parent,
   Query Function(Query)? queryBuilder,
   int limit = -1,
   bool singleRecord = false,
 }) =>
     queryCollection(
-      TransactionsRecord.collection,
-      TransactionsRecord.fromSnapshot,
+      HistoryRecord.collection(parent),
+      HistoryRecord.fromSnapshot,
       queryBuilder: queryBuilder,
       limit: limit,
       singleRecord: singleRecord,
     );
 
-Future<List<TransactionsRecord>> queryTransactionsRecordOnce({
+Future<List<HistoryRecord>> queryHistoryRecordOnce({
+  DocumentReference? parent,
   Query Function(Query)? queryBuilder,
   int limit = -1,
   bool singleRecord = false,
 }) =>
     queryCollectionOnce(
-      TransactionsRecord.collection,
-      TransactionsRecord.fromSnapshot,
-      queryBuilder: queryBuilder,
-      limit: limit,
-      singleRecord: singleRecord,
-    );
-
-/// Functions to query LeadCaptureRecords (as a Stream and as a Future).
-Future<int> queryLeadCaptureRecordCount({
-  Query Function(Query)? queryBuilder,
-  int limit = -1,
-}) =>
-    queryCollectionCount(
-      LeadCaptureRecord.collection,
-      queryBuilder: queryBuilder,
-      limit: limit,
-    );
-
-Stream<List<LeadCaptureRecord>> queryLeadCaptureRecord({
-  Query Function(Query)? queryBuilder,
-  int limit = -1,
-  bool singleRecord = false,
-}) =>
-    queryCollection(
-      LeadCaptureRecord.collection,
-      LeadCaptureRecord.fromSnapshot,
-      queryBuilder: queryBuilder,
-      limit: limit,
-      singleRecord: singleRecord,
-    );
-
-Future<List<LeadCaptureRecord>> queryLeadCaptureRecordOnce({
-  Query Function(Query)? queryBuilder,
-  int limit = -1,
-  bool singleRecord = false,
-}) =>
-    queryCollectionOnce(
-      LeadCaptureRecord.collection,
-      LeadCaptureRecord.fromSnapshot,
+      HistoryRecord.collection(parent),
+      HistoryRecord.fromSnapshot,
       queryBuilder: queryBuilder,
       limit: limit,
       singleRecord: singleRecord,

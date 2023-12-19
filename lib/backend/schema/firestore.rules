@@ -8,25 +8,23 @@ service cloud.firestore {
       allow delete: if false;
     }
 
-    match /cities/{document} {
+    match /funds/{document} {
       allow create: if true;
       allow read: if true;
       allow write: if false;
       allow delete: if false;
     }
 
-    match /Transactions/{document} {
+    match /funds/{parent}/history/{document} {
       allow create: if true;
       allow read: if true;
       allow write: if false;
       allow delete: if false;
     }
 
-    match /leadCapture/{document} {
-      allow create: if true;
+    match /{path=**}/history/{document} {
       allow read: if true;
-      allow write: if true;
-      allow delete: if true;
     }
+
   }
 }

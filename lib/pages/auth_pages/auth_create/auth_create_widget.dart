@@ -333,7 +333,7 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
               end: const AlignmentDirectional(-1.0, 1.0),
             ),
           ),
-          alignment: const AlignmentDirectional(0.00, 0.00),
+          alignment: const AlignmentDirectional(0.0, 0.0),
           child: SingleChildScrollView(
             child: Column(
               mainAxisSize: MainAxisSize.max,
@@ -402,13 +402,13 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                                   decoration: InputDecoration(
                                     labelText:
                                         FFLocalizations.of(context).getText(
-                                      'seheok8a' /* Email Address */,
+                                      '856ojstr' /* Email Address */,
                                     ),
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .labelMedium,
                                     hintText:
                                         FFLocalizations.of(context).getText(
-                                      '0uknk55c' /* Enter your email here... */,
+                                      '0sdkkj1i' /* Enter your email here... */,
                                     ),
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .labelMedium,
@@ -726,15 +726,13 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                               animationsMap['rowOnPageLoadAnimation2']!),
                         ),
                         Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              8.0, 8.0, 8.0, 8.0),
+                          padding: const EdgeInsets.all(8.0),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
-                                    8.0, 8.0, 8.0, 8.0),
+                                padding: const EdgeInsets.all(8.0),
                                 child: InkWell(
                                   splashColor: Colors.transparent,
                                   focusColor: Colors.transparent,
@@ -766,7 +764,7 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                                         width: 2.0,
                                       ),
                                     ),
-                                    alignment: const AlignmentDirectional(0.00, 0.00),
+                                    alignment: const AlignmentDirectional(0.0, 0.0),
                                     child: FaIcon(
                                       FontAwesomeIcons.google,
                                       color: FlutterFlowTheme.of(context)
@@ -778,8 +776,7 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                                     'containerOnPageLoadAnimation1']!),
                               ),
                               Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
-                                    8.0, 8.0, 8.0, 8.0),
+                                padding: const EdgeInsets.all(8.0),
                                 child: InkWell(
                                   splashColor: Colors.transparent,
                                   focusColor: Colors.transparent,
@@ -811,7 +808,7 @@ class _AuthCreateWidgetState extends State<AuthCreateWidget>
                                         width: 2.0,
                                       ),
                                     ),
-                                    alignment: const AlignmentDirectional(0.00, 0.00),
+                                    alignment: const AlignmentDirectional(0.0, 0.0),
                                     child: FaIcon(
                                       FontAwesomeIcons.apple,
                                       color: FlutterFlowTheme.of(context)

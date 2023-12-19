@@ -370,7 +370,7 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
               end: const AlignmentDirectional(-1.0, 1.0),
             ),
           ),
-          alignment: const AlignmentDirectional(0.00, 0.00),
+          alignment: const AlignmentDirectional(0.0, 0.0),
           child: SingleChildScrollView(
             child: Column(
               mainAxisSize: MainAxisSize.max,
@@ -386,7 +386,7 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                     ),
                     decoration: const BoxDecoration(),
                     child: Align(
-                      alignment: const AlignmentDirectional(0.00, 0.00),
+                      alignment: const AlignmentDirectional(0.0, 0.0),
                       child: Padding(
                         padding: const EdgeInsetsDirectional.fromSTEB(
                             20.0, 0.0, 20.0, 0.0),
@@ -650,7 +650,7 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
 
                                   // This button does the login flow
                                   Align(
-                                    alignment: const AlignmentDirectional(0.00, 0.00),
+                                    alignment: const AlignmentDirectional(0.0, 0.0),
                                     child: FFButtonWidget(
                                       onPressed: () async {
                                         logFirebaseEvent(
@@ -713,7 +713,7 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
 
                             // This button does the login flow
                             Align(
-                              alignment: const AlignmentDirectional(0.00, 0.00),
+                              alignment: const AlignmentDirectional(0.0, 0.0),
                               child: FFButtonWidget(
                                 onPressed: () async {
                                   logFirebaseEvent(
@@ -778,15 +778,13 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                                   animationsMap['rowOnPageLoadAnimation3']!),
                             ),
                             Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  8.0, 8.0, 8.0, 8.0),
+                              padding: const EdgeInsets.all(8.0),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
                                   Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
-                                        8.0, 8.0, 8.0, 8.0),
+                                    padding: const EdgeInsets.all(8.0),
                                     child: InkWell(
                                       splashColor: Colors.transparent,
                                       focusColor: Colors.transparent,
@@ -819,7 +817,7 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                                           ),
                                         ),
                                         alignment:
-                                            const AlignmentDirectional(0.00, 0.00),
+                                            const AlignmentDirectional(0.0, 0.0),
                                         child: FaIcon(
                                           FontAwesomeIcons.google,
                                           color: FlutterFlowTheme.of(context)
@@ -831,8 +829,7 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                                         'containerOnPageLoadAnimation1']!),
                                   ),
                                   Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
-                                        8.0, 8.0, 8.0, 8.0),
+                                    padding: const EdgeInsets.all(8.0),
                                     child: InkWell(
                                       splashColor: Colors.transparent,
                                       focusColor: Colors.transparent,
@@ -865,7 +862,7 @@ class _AuthLoginWidgetState extends State<AuthLoginWidget>
                                           ),
                                         ),
                                         alignment:
-                                            const AlignmentDirectional(0.00, 0.00),
+                                            const AlignmentDirectional(0.0, 0.0),
                                         child: FaIcon(
                                           FontAwesomeIcons.apple,
                                           color: FlutterFlowTheme.of(context)

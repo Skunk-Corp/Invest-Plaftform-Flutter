@@ -307,7 +307,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                 color: FlutterFlowTheme.of(context)
                                     .primaryBackground,
                               ),
-                              alignment: const AlignmentDirectional(-1.00, 0.00),
+                              alignment: const AlignmentDirectional(-1.0, 0.0),
                               child: Padding(
                                 padding: const EdgeInsetsDirectional.fromSTEB(
                                     16.0, 0.0, 16.0, 0.0),
@@ -447,9 +447,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                               ),
                                             ),
                                             child: Padding(
-                                              padding: const EdgeInsetsDirectional
-                                                  .fromSTEB(
-                                                      12.0, 12.0, 12.0, 12.0),
+                                              padding: const EdgeInsets.all(12.0),
                                               child: Column(
                                                 mainAxisSize: MainAxisSize.max,
                                                 mainAxisAlignment:
@@ -469,7 +467,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                     ),
                                                     alignment:
                                                         const AlignmentDirectional(
-                                                            0.00, 0.00),
+                                                            0.0, 0.0),
                                                     child: const Icon(
                                                       Icons.desktop_windows,
                                                       color: Colors.white,
@@ -516,7 +514,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                       Align(
                                                         alignment:
                                                             const AlignmentDirectional(
-                                                                -0.91, 0.00),
+                                                                -0.91, 0.0),
                                                         child: Container(
                                                           width: 28.0,
                                                           height: 28.0,
@@ -537,7 +535,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                       Align(
                                                         alignment:
                                                             const AlignmentDirectional(
-                                                                -0.62, 0.00),
+                                                                -0.62, 0.0),
                                                         child: Container(
                                                           width: 28.0,
                                                           height: 28.0,
@@ -558,7 +556,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                       Align(
                                                         alignment:
                                                             const AlignmentDirectional(
-                                                                -0.35, 0.00),
+                                                                -0.35, 0.0),
                                                         child: Container(
                                                           width: 28.0,
                                                           height: 28.0,
@@ -640,9 +638,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                               ),
                                             ),
                                             child: Padding(
-                                              padding: const EdgeInsetsDirectional
-                                                  .fromSTEB(
-                                                      12.0, 12.0, 12.0, 12.0),
+                                              padding: const EdgeInsets.all(12.0),
                                               child: Column(
                                                 mainAxisSize: MainAxisSize.max,
                                                 mainAxisAlignment:
@@ -662,7 +658,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                     ),
                                                     alignment:
                                                         const AlignmentDirectional(
-                                                            0.00, 0.00),
+                                                            0.0, 0.0),
                                                     child: Icon(
                                                       Icons
                                                           .design_services_outlined,
@@ -706,7 +702,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                       Align(
                                                         alignment:
                                                             const AlignmentDirectional(
-                                                                -0.91, 0.00),
+                                                                -0.91, 0.0),
                                                         child: Container(
                                                           width: 28.0,
                                                           height: 28.0,
@@ -727,7 +723,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                       Align(
                                                         alignment:
                                                             const AlignmentDirectional(
-                                                                -0.62, 0.00),
+                                                                -0.62, 0.0),
                                                         child: Container(
                                                           width: 28.0,
                                                           height: 28.0,
@@ -748,7 +744,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                       Align(
                                                         alignment:
                                                             const AlignmentDirectional(
-                                                                -0.35, 0.00),
+                                                                -0.35, 0.0),
                                                         child: Container(
                                                           width: 28.0,
                                                           height: 28.0,
@@ -930,12 +926,8 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                         ),
                                                         child: Padding(
                                                           padding:
-                                                              const EdgeInsetsDirectional
-                                                                  .fromSTEB(
-                                                                      2.0,
-                                                                      2.0,
-                                                                      2.0,
-                                                                      2.0),
+                                                              const EdgeInsets.all(
+                                                                  2.0),
                                                           child: ClipRRect(
                                                             borderRadius:
                                                                 BorderRadius
@@ -1075,7 +1067,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                     ),
                                                     alignment:
                                                         const AlignmentDirectional(
-                                                            0.00, 0.00),
+                                                            0.0, 0.0),
                                                     child: Padding(
                                                       padding:
                                                           const EdgeInsetsDirectional
@@ -1225,12 +1217,8 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                         ),
                                                         child: Padding(
                                                           padding:
-                                                              const EdgeInsetsDirectional
-                                                                  .fromSTEB(
-                                                                      2.0,
-                                                                      2.0,
-                                                                      2.0,
-                                                                      2.0),
+                                                              const EdgeInsets.all(
+                                                                  2.0),
                                                           child: ClipRRect(
                                                             borderRadius:
                                                                 BorderRadius
@@ -1370,7 +1358,7 @@ class _MainContractsWidgetState extends State<MainContractsWidget>
                                                     ),
                                                     alignment:
                                                         const AlignmentDirectional(
-                                                            0.00, 0.00),
+                                                            0.0, 0.0),
                                                     child: Padding(
                                                       padding:
                                                           const EdgeInsetsDirectional

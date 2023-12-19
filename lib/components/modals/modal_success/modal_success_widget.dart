@@ -263,8 +263,7 @@ class _ModalSuccessWidgetState extends State<ModalSuccessWidget>
                     ),
                   ),
                   child: Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 16.0),
+                    padding: const EdgeInsets.all(16.0),
                     child: Column(
                       mainAxisSize: MainAxisSize.max,
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -477,8 +476,7 @@ class _ModalSuccessWidgetState extends State<ModalSuccessWidget>
                             options: FFButtonOptions(
                               width: double.infinity,
                               height: 52.0,
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 0.0, 0.0, 0.0),
+                              padding: const EdgeInsets.all(0.0),
                               iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 0.0),
                               color: FlutterFlowTheme.of(context).primary,
@@ -517,8 +515,7 @@ class _ModalSuccessWidgetState extends State<ModalSuccessWidget>
                             options: FFButtonOptions(
                               width: double.infinity,
                               height: 44.0,
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 0.0, 0.0, 0.0),
+                              padding: const EdgeInsets.all(0.0),
                               iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 0.0),
                               color: FlutterFlowTheme.of(context)

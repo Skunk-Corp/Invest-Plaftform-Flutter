@@ -935,7 +935,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                   ),
                                 ),
                                 Align(
-                                  alignment: const AlignmentDirectional(0.00, 1.00),
+                                  alignment: const AlignmentDirectional(0.0, 1.0),
                                   child: Padding(
                                     padding: const EdgeInsetsDirectional.fromSTEB(
                                         0.0, 30.0, 0.0, 0.0),
@@ -1005,7 +1005,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                       ),
                                                       alignment:
                                                           const AlignmentDirectional(
-                                                              0.00, 0.00),
+                                                              0.0, 0.0),
                                                       child: Card(
                                                         clipBehavior: Clip
                                                             .antiAliasWithSaveLayer,
@@ -1022,12 +1022,8 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                         ),
                                                         child: const Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
-                                                                  .fromSTEB(
-                                                                      12.0,
-                                                                      12.0,
-                                                                      12.0,
-                                                                      12.0),
+                                                              EdgeInsets.all(
+                                                                  12.0),
                                                           child: Icon(
                                                             Icons
                                                                 .group_outlined,
@@ -1041,12 +1037,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                             'containerOnPageLoadAnimation2']!),
                                                     Padding(
                                                       padding:
-                                                          const EdgeInsetsDirectional
-                                                              .fromSTEB(
-                                                                  12.0,
-                                                                  12.0,
-                                                                  12.0,
-                                                                  12.0),
+                                                          const EdgeInsets.all(12.0),
                                                       child: Column(
                                                         mainAxisSize:
                                                             MainAxisSize.max,
@@ -1150,7 +1141,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                       ),
                                                       alignment:
                                                           const AlignmentDirectional(
-                                                              0.00, 0.00),
+                                                              0.0, 0.0),
                                                       child: Card(
                                                         clipBehavior: Clip
                                                             .antiAliasWithSaveLayer,
@@ -1167,12 +1158,8 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                         ),
                                                         child: const Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
-                                                                  .fromSTEB(
-                                                                      12.0,
-                                                                      12.0,
-                                                                      12.0,
-                                                                      12.0),
+                                                              EdgeInsets.all(
+                                                                  12.0),
                                                           child: Icon(
                                                             Icons
                                                                 .home_work_outlined,
@@ -1186,12 +1173,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                             'containerOnPageLoadAnimation4']!),
                                                     Padding(
                                                       padding:
-                                                          const EdgeInsetsDirectional
-                                                              .fromSTEB(
-                                                                  12.0,
-                                                                  12.0,
-                                                                  12.0,
-                                                                  12.0),
+                                                          const EdgeInsets.all(12.0),
                                                       child: Column(
                                                         mainAxisSize:
                                                             MainAxisSize.max,
@@ -1295,7 +1277,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                       ),
                                                       alignment:
                                                           const AlignmentDirectional(
-                                                              0.00, 0.00),
+                                                              0.0, 0.0),
                                                       child: Card(
                                                         clipBehavior: Clip
                                                             .antiAliasWithSaveLayer,
@@ -1312,12 +1294,8 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                         ),
                                                         child: const Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
-                                                                  .fromSTEB(
-                                                                      12.0,
-                                                                      12.0,
-                                                                      12.0,
-                                                                      12.0),
+                                                              EdgeInsets.all(
+                                                                  12.0),
                                                           child: Icon(
                                                             Icons
                                                                 .account_tree_outlined,
@@ -1331,12 +1309,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                             'containerOnPageLoadAnimation6']!),
                                                     Padding(
                                                       padding:
-                                                          const EdgeInsetsDirectional
-                                                              .fromSTEB(
-                                                                  12.0,
-                                                                  12.0,
-                                                                  12.0,
-                                                                  12.0),
+                                                          const EdgeInsets.all(12.0),
                                                       child: Column(
                                                         mainAxisSize:
                                                             MainAxisSize.max,
@@ -1426,8 +1399,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                 borderRadius: BorderRadius.circular(8.0),
                               ),
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
-                                    12.0, 12.0, 12.0, 12.0),
+                                padding: const EdgeInsets.all(12.0),
                                 child: Column(
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.center,
@@ -1520,7 +1492,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                             tablet: false,
                           ))
                             Align(
-                              alignment: const AlignmentDirectional(0.00, 0.00),
+                              alignment: const AlignmentDirectional(0.0, 0.0),
                               child: Padding(
                                 padding: const EdgeInsetsDirectional.fromSTEB(
                                     16.0, 16.0, 16.0, 0.0),
@@ -1639,7 +1611,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                       ),
                                                       alignment:
                                                           const AlignmentDirectional(
-                                                              0.00, 0.00),
+                                                              0.0, 0.0),
                                                       child: Card(
                                                         clipBehavior: Clip
                                                             .antiAliasWithSaveLayer,
@@ -1656,12 +1628,8 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                         ),
                                                         child: Padding(
                                                           padding:
-                                                              const EdgeInsetsDirectional
-                                                                  .fromSTEB(
-                                                                      12.0,
-                                                                      12.0,
-                                                                      12.0,
-                                                                      12.0),
+                                                              const EdgeInsets.all(
+                                                                  12.0),
                                                           child: Icon(
                                                             Icons
                                                                 .folder_open_outlined,
@@ -1858,7 +1826,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                       ),
                                                       alignment:
                                                           const AlignmentDirectional(
-                                                              0.00, 0.00),
+                                                              0.0, 0.0),
                                                       child: Card(
                                                         clipBehavior: Clip
                                                             .antiAliasWithSaveLayer,
@@ -1875,12 +1843,8 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                         ),
                                                         child: Padding(
                                                           padding:
-                                                              const EdgeInsetsDirectional
-                                                                  .fromSTEB(
-                                                                      12.0,
-                                                                      12.0,
-                                                                      12.0,
-                                                                      12.0),
+                                                              const EdgeInsets.all(
+                                                                  12.0),
                                                           child: Icon(
                                                             Icons.group,
                                                             color: FlutterFlowTheme
@@ -2064,7 +2028,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                 shape: BoxShape.circle,
                                               ),
                                               alignment: const AlignmentDirectional(
-                                                  0.00, 0.00),
+                                                  0.0, 0.0),
                                               child: Card(
                                                 clipBehavior:
                                                     Clip.antiAliasWithSaveLayer,
@@ -2077,9 +2041,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                           40.0),
                                                 ),
                                                 child: Padding(
-                                                  padding: const EdgeInsetsDirectional
-                                                      .fromSTEB(12.0, 12.0,
-                                                          12.0, 12.0),
+                                                  padding: const EdgeInsets.all(12.0),
                                                   child: Icon(
                                                     Icons.folder_open_outlined,
                                                     color: FlutterFlowTheme.of(
@@ -2248,7 +2210,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                 shape: BoxShape.circle,
                                               ),
                                               alignment: const AlignmentDirectional(
-                                                  0.00, 0.00),
+                                                  0.0, 0.0),
                                               child: Card(
                                                 clipBehavior:
                                                     Clip.antiAliasWithSaveLayer,
@@ -2261,9 +2223,7 @@ class _MainHomeWidgetState extends State<MainHomeWidget>
                                                           40.0),
                                                 ),
                                                 child: Padding(
-                                                  padding: const EdgeInsetsDirectional
-                                                      .fromSTEB(12.0, 12.0,
-                                                          12.0, 12.0),
+                                                  padding: const EdgeInsets.all(12.0),
                                                   child: Icon(
                                                     Icons.group,
                                                     color: FlutterFlowTheme.of(

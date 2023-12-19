@@ -259,8 +259,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                             borderRadius: BorderRadius.circular(12.0),
                           ),
                           child: Padding(
-                            padding: const EdgeInsetsDirectional.fromSTEB(
-                                2.0, 2.0, 2.0, 2.0),
+                            padding: const EdgeInsets.all(2.0),
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(12.0),
                               child: Image.asset(
@@ -342,8 +341,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                       ),
                     ),
                     child: Padding(
-                      padding:
-                          const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+                      padding: const EdgeInsets.all(8.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
                         children: [
@@ -360,8 +358,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  2.0, 2.0, 2.0, 2.0),
+                              padding: const EdgeInsets.all(2.0),
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(10.0),
                                 child: Image.network(
@@ -412,8 +409,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                               borderRadius: BorderRadius.circular(40.0),
                             ),
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  4.0, 4.0, 4.0, 4.0),
+                              padding: const EdgeInsets.all(4.0),
                               child: Icon(
                                 Icons.chevron_right_rounded,
                                 color:
@@ -469,7 +465,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                           width: 2.0,
                         ),
                       ),
-                      alignment: const AlignmentDirectional(0.00, 0.00),
+                      alignment: const AlignmentDirectional(0.0, 0.0),
                       child: Padding(
                         padding: const EdgeInsetsDirectional.fromSTEB(
                             16.0, 0.0, 16.0, 0.0),
@@ -558,7 +554,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Align(
-                                  alignment: const AlignmentDirectional(-1.00, -1.00),
+                                  alignment: const AlignmentDirectional(-1.0, -1.0),
                                   child: AnimatedContainer(
                                     duration: const Duration(milliseconds: 150),
                                     curve: Curves.easeInOut,
@@ -575,8 +571,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                       ),
                                     ),
                                     child: Padding(
-                                      padding: const EdgeInsetsDirectional.fromSTEB(
-                                          2.0, 2.0, 2.0, 2.0),
+                                      padding: const EdgeInsets.all(2.0),
                                       child: Icon(
                                         Icons.document_scanner_rounded,
                                         color: FlutterFlowTheme.of(context)
@@ -656,9 +651,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                             ),
                                           ),
                                           child: Padding(
-                                            padding:
-                                                const EdgeInsetsDirectional.fromSTEB(
-                                                    12.0, 12.0, 12.0, 12.0),
+                                            padding: const EdgeInsets.all(12.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               crossAxisAlignment:
@@ -734,7 +727,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Align(
-                                  alignment: const AlignmentDirectional(-1.00, -1.00),
+                                  alignment: const AlignmentDirectional(-1.0, -1.0),
                                   child: AnimatedContainer(
                                     duration: const Duration(milliseconds: 150),
                                     curve: Curves.easeInOut,
@@ -751,8 +744,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                       ),
                                     ),
                                     child: Padding(
-                                      padding: const EdgeInsetsDirectional.fromSTEB(
-                                          2.0, 2.0, 2.0, 2.0),
+                                      padding: const EdgeInsets.all(2.0),
                                       child: Icon(
                                         Icons.document_scanner_rounded,
                                         color: FlutterFlowTheme.of(context)
@@ -824,9 +816,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                 BorderRadius.circular(12.0),
                                           ),
                                           child: Padding(
-                                            padding:
-                                                const EdgeInsetsDirectional.fromSTEB(
-                                                    12.0, 12.0, 12.0, 12.0),
+                                            padding: const EdgeInsets.all(12.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               crossAxisAlignment:
@@ -916,7 +906,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Align(
-                                  alignment: const AlignmentDirectional(-1.00, -1.00),
+                                  alignment: const AlignmentDirectional(-1.0, -1.0),
                                   child: AnimatedContainer(
                                     duration: const Duration(milliseconds: 150),
                                     curve: Curves.easeInOut,
@@ -933,8 +923,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                       ),
                                     ),
                                     child: Padding(
-                                      padding: const EdgeInsetsDirectional.fromSTEB(
-                                          2.0, 2.0, 2.0, 2.0),
+                                      padding: const EdgeInsets.all(2.0),
                                       child: Icon(
                                         Icons.roundabout_right_outlined,
                                         color: FlutterFlowTheme.of(context)
@@ -1021,9 +1010,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                                 BorderRadius.circular(12.0),
                                           ),
                                           child: Padding(
-                                            padding:
-                                                const EdgeInsetsDirectional.fromSTEB(
-                                                    12.0, 12.0, 12.0, 12.0),
+                                            padding: const EdgeInsets.all(12.0),
                                             child: Column(
                                               mainAxisSize: MainAxisSize.max,
                                               crossAxisAlignment:
@@ -1286,7 +1273,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                             children: [
                                               Align(
                                                 alignment: const AlignmentDirectional(
-                                                    -1.00, 0.00),
+                                                    -1.0, 0.0),
                                                 child: Container(
                                                   width: 28.0,
                                                   height: 28.0,
@@ -1302,7 +1289,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                               ),
                                               Align(
                                                 alignment: const AlignmentDirectional(
-                                                    -0.70, 0.00),
+                                                    -0.7, 0.0),
                                                 child: Container(
                                                   width: 28.0,
                                                   height: 28.0,
@@ -1318,7 +1305,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                               ),
                                               Align(
                                                 alignment: const AlignmentDirectional(
-                                                    -0.40, 0.00),
+                                                    -0.4, 0.0),
                                                 child: Container(
                                                   width: 28.0,
                                                   height: 28.0,
@@ -1525,7 +1512,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                             children: [
                                               Align(
                                                 alignment: const AlignmentDirectional(
-                                                    -1.00, 0.00),
+                                                    -1.0, 0.0),
                                                 child: Container(
                                                   width: 28.0,
                                                   height: 28.0,
@@ -1541,7 +1528,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                               ),
                                               Align(
                                                 alignment: const AlignmentDirectional(
-                                                    -0.70, 0.00),
+                                                    -0.7, 0.0),
                                                 child: Container(
                                                   width: 28.0,
                                                   height: 28.0,
@@ -1557,7 +1544,7 @@ class _ProjectDetailsAltWidgetState extends State<ProjectDetailsAltWidget>
                                               ),
                                               Align(
                                                 alignment: const AlignmentDirectional(
-                                                    -0.40, 0.00),
+                                                    -0.4, 0.0),
                                                 child: Container(
                                                   width: 28.0,
                                                   height: 28.0,

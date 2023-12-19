@@ -388,7 +388,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'te': 'ప్రారంభించడానికి దిగువ ఫారమ్‌ని ఉపయోగించండి.',
       'ur': 'شروع کرنے کے لیے نیچے دیے گئے فارم کا استعمال کریں۔',
     },
-    'seheok8a': {
+    '856ojstr': {
       'en': 'Email Address',
       'bn': 'ইমেইল ঠিকানা',
       'hi': 'मेल पता',
@@ -398,7 +398,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'te': 'ఇమెయిల్ చిరునామా',
       'ur': 'ای میل اڈریس',
     },
-    '0uknk55c': {
+    '0sdkkj1i': {
       'en': 'Enter your email here...',
       'bn': 'এখানে আপনার ইমেল ঠিকানা লিখুন...',
       'hi': 'अपना ई मेल यहा भरे...',
@@ -715,7 +715,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   // Main_customerList
   {
     'n99lg1qh': {
-      'en': 'Customers',
+      'en': 'Investments',
       'bn': 'গ্রাহকদের',
       'hi': 'ग्राहकों',
       'ml': 'ഉപഭോക്താക്കൾ',
@@ -755,7 +755,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ur': 'نام',
     },
     '5rmzx51f': {
-      'en': 'Title',
+      'en': 'Target',
       'bn': 'শিরোনাম',
       'hi': 'शीर्षक',
       'ml': 'തലക്കെട്ട്',
@@ -765,7 +765,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ur': 'عنوان',
     },
     'z0huz1sz': {
-      'en': 'Company',
+      'en': 'Raised',
       'bn': 'প্রতিষ্ঠান',
       'hi': 'कंपनी',
       'ml': 'കമ്പനി',
@@ -775,7 +775,17 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ur': 'کمپنی',
     },
     '04vrv62j': {
-      'en': 'Company',
+      'en': 'Risk',
+      'bn': 'প্রতিষ্ঠান',
+      'hi': 'कंपनी',
+      'ml': 'കമ്പനി',
+      'or': 'କମ୍ପାନୀ',
+      'ta': 'நிறுவனம்',
+      'te': 'కంపెనీ',
+      'ur': 'کمپنی',
+    },
+    'lhtk6u56': {
+      'en': 'Owner',
       'bn': 'প্রতিষ্ঠান',
       'hi': 'कंपनी',
       'ml': 'കമ്പനി',
@@ -794,48 +804,8 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'te': 'స్థితి',
       'ur': 'حالت',
     },
-    '2su72evi': {
-      'en': 'Randy Alcorn',
-      'bn': 'রেন্ডি অ্যালকর্ন',
-      'hi': 'रैंडी अलकोर्न',
-      'ml': 'റാണ്ടി അൽകോൺ',
-      'or': 'ରାଣ୍ଡି ଆଲକର୍ନ୍ |',
-      'ta': 'ராண்டி அல்கார்ன்',
-      'te': 'రాండి ఆల్కార్న్',
-      'ur': 'رینڈی الکورن',
-    },
-    '0zsa579c': {
-      'en': 'Head of Procurement',
-      'bn': 'প্রকিউরমেন্টের প্রধান',
-      'hi': 'खरीद के प्रमुख',
-      'ml': 'സംഭരണ ​​മേധാവി',
-      'or': 'କ୍ରୟର ମୁଖ୍ୟ',
-      'ta': 'கொள்முதல் தலைவர்',
-      'te': 'సేకరణ అధిపతి',
-      'ur': 'پروکیورمنٹ کے سربراہ',
-    },
-    'w3raz1jn': {
-      'en': 'ACME Co.',
-      'bn': 'ACME Co.',
-      'hi': 'एसीएमई कंपनी',
-      'ml': 'ACME Co.',
-      'or': 'ACME Co',
-      'ta': 'ACME கோ.',
-      'te': 'ACME కో.',
-      'ur': 'ACME Co.',
-    },
-    'z4lsfg10': {
-      'en': 'ACME Co.',
-      'bn': 'ACME Co.',
-      'hi': 'एसीएमई कंपनी',
-      'ml': 'ACME Co.',
-      'or': 'ACME Co',
-      'ta': 'ACME கோ.',
-      'te': 'ACME కో.',
-      'ur': 'ACME Co.',
-    },
     '1a4k6aks': {
-      'en': 'New',
+      'en': 'Invest',
       'bn': 'নতুন',
       'hi': 'नया',
       'ml': 'പുതിയത്',
@@ -1145,7 +1115,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ur': 'رابطہ کیا۔',
     },
     'qh2ock0d': {
-      'en': 'New Calls',
+      'en': 'Recommended',
       'bn': 'নতুন কল',
       'hi': 'नई कॉलें',
       'ml': 'പുതിയ കോളുകൾ',
@@ -1305,7 +1275,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ur': 'نئی',
     },
     's7xebw09': {
-      'en': 'Contacted',
+      'en': 'Favorites',
       'bn': 'যোগাযোগ করা হয়েছে',
       'hi': 'व्यक्ति से संपर्क किया',
       'ml': 'ബന്ധപ്പെട്ടു',
@@ -1614,8 +1584,8 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'te': 'సంప్రదించారు',
       'ur': 'رابطہ کیا۔',
     },
-    'fcyoodds': {
-      'en': 'Customers',
+    '6ziufcam': {
+      'en': 'Investments',
       'bn': 'গ্রাহকদের',
       'hi': 'ग्राहकों',
       'ml': 'ഉപഭോക്താക്കൾ',
@@ -2262,7 +2232,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // projectDetailsHealthAi
   {
-    'mxf4vrjw': {
+    'hq7ks14n': {
       'en': 'HealthAi',
       'bn': 'হেলথএআই',
       'hi': 'हेल्थएआई',
@@ -2281,6 +2251,16 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': 'Q3 க்கான வாடிக்கையாளர் கையகப்படுத்தல்',
       'te': 'Q3 కోసం క్లయింట్ సముపార్జన',
       'ur': 'Q3 کے لیے کلائنٹ کا حصول',
+    },
+    's67gofip': {
+      'en': '50%',
+      'bn': '',
+      'hi': '',
+      'ml': '',
+      'or': '',
+      'ta': '',
+      'te': '',
+      'ur': '',
     },
     'ynyuwhqo': {
       'en': 'Next Action',
@@ -2949,8 +2929,18 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'te': 'డాష్బోర్డ్',
       'ur': 'ڈیش بورڈ',
     },
+    '1t0fyvre': {
+      'en': 'Home',
+      'bn': 'ড্যাশবোর্ড',
+      'hi': 'डैशबोर्ड',
+      'ml': 'ഡാഷ്ബോർഡ്',
+      'or': 'ଡ୍ୟାସବୋର୍ଡ |',
+      'ta': 'டாஷ்போர்டு',
+      'te': 'డాష్బోర్డ్',
+      'ur': 'ڈیش بورڈ',
+    },
     'lbojdpxg': {
-      'en': 'Customers',
+      'en': 'My Investments',
       'bn': 'গ্রাহকদের',
       'hi': 'ग्राहकों',
       'ml': 'ഉപഭോക്താക്കൾ',
@@ -2960,7 +2950,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ur': 'گاہکوں',
     },
     '9pjba90p': {
-      'en': 'Contracts',
+      'en': 'My Funds',
       'bn': 'চুক্তি',
       'hi': 'ठेके',
       'ml': 'കരാറുകൾ',
@@ -2969,18 +2959,8 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'te': 'ఒప్పందాలు',
       'ur': 'معاہدے',
     },
-    '5s0d776i': {
-      'en': 'Messages',
-      'bn': 'বার্তা',
-      'hi': 'संदेशों',
-      'ml': 'സന്ദേശങ്ങൾ',
-      'or': 'ବାର୍ତ୍ତାଗୁଡିକ',
-      'ta': 'செய்திகள்',
-      'te': 'సందేశాలు',
-      'ur': 'پیغامات',
-    },
     '01nu9cy0': {
-      'en': 'Profile',
+      'en': 'My Account',
       'bn': 'প্রোফাইল',
       'hi': 'प्रोफ़ाइल',
       'ml': 'പ്രൊഫൈൽ',
@@ -2988,6 +2968,16 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': 'சுயவிவரம்',
       'te': 'ప్రొఫైల్',
       'ur': 'پروفائل',
+    },
+    '5s0d776i': {
+      'en': 'Settings',
+      'bn': 'বার্তা',
+      'hi': 'संदेशों',
+      'ml': 'സന്ദേശങ്ങൾ',
+      'or': 'ବାର୍ତ୍ତାଗୁଡିକ',
+      'ta': 'செய்திகள்',
+      'te': 'సందేశాలు',
+      'ur': 'پیغامات',
     },
   },
   // commandPalette

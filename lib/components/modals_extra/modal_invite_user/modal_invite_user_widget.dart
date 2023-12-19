@@ -155,8 +155,7 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
                                   ),
                                 ),
                                 child: Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
-                                      2.0, 2.0, 2.0, 2.0),
+                                  padding: const EdgeInsets.all(2.0),
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(10.0),
                                     child: Image.network(
@@ -377,7 +376,7 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Align(
-                          alignment: const AlignmentDirectional(0.00, 0.05),
+                          alignment: const AlignmentDirectional(0.0, 0.05),
                           child: FFButtonWidget(
                             onPressed: () {
                               print('Button pressed ...');
@@ -414,7 +413,7 @@ class _ModalInviteUserWidgetState extends State<ModalInviteUserWidget>
                           ),
                         ),
                         Align(
-                          alignment: const AlignmentDirectional(0.00, 0.05),
+                          alignment: const AlignmentDirectional(0.0, 0.05),
                           child: FFButtonWidget(
                             onPressed: () {
                               print('Button pressed ...');

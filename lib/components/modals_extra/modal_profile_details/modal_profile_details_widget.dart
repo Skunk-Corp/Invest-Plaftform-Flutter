@@ -162,8 +162,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                                   ),
                                 ),
                                 child: Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
-                                      2.0, 2.0, 2.0, 2.0),
+                                  padding: const EdgeInsets.all(2.0),
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(10.0),
                                     child: Image.network(
@@ -238,8 +237,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  16.0, 16.0, 16.0, 16.0),
+                              padding: const EdgeInsets.all(16.0),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 mainAxisAlignment:
@@ -278,8 +276,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  16.0, 16.0, 16.0, 16.0),
+                              padding: const EdgeInsets.all(16.0),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 mainAxisAlignment:
@@ -304,7 +301,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                           ),
                         ),
                         Align(
-                          alignment: const AlignmentDirectional(0.00, 0.00),
+                          alignment: const AlignmentDirectional(0.0, 0.0),
                           child: Container(
                             width: double.infinity,
                             height: 50.0,
@@ -318,8 +315,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  4.0, 4.0, 4.0, 4.0),
+                              padding: const EdgeInsets.all(4.0),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 mainAxisAlignment: MainAxisAlignment.start,
@@ -525,8 +521,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  16.0, 16.0, 16.0, 16.0),
+                              padding: const EdgeInsets.all(16.0),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 mainAxisAlignment:
@@ -565,8 +560,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                               ),
                             ),
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
-                                  16.0, 16.0, 16.0, 16.0),
+                              padding: const EdgeInsets.all(16.0),
                               child: Row(
                                 mainAxisSize: MainAxisSize.max,
                                 mainAxisAlignment:
@@ -603,7 +597,7 @@ class _ModalProfileDetailsWidgetState extends State<ModalProfileDetailsWidget>
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
                         Align(
-                          alignment: const AlignmentDirectional(0.00, 0.05),
+                          alignment: const AlignmentDirectional(0.0, 0.05),
                           child: FFButtonWidget(
                             onPressed: () {
                               print('Button pressed ...');

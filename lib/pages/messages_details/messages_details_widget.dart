@@ -156,16 +156,12 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                           ),
                                         ),
                                         child: Padding(
-                                          padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
-                                                  8.0, 8.0, 8.0, 8.0),
+                                          padding: const EdgeInsets.all(8.0),
                                           child: Column(
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
                                               Padding(
-                                                padding: const EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        4.0, 4.0, 4.0, 4.0),
+                                                padding: const EdgeInsets.all(4.0),
                                                 child: SelectionArea(
                                                     child: AutoSizeText(
                                                   FFLocalizations.of(context)
@@ -245,18 +241,14 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                           ),
                                         ),
                                         child: Padding(
-                                          padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
-                                                  8.0, 8.0, 8.0, 8.0),
+                                          padding: const EdgeInsets.all(8.0),
                                           child: Column(
                                             mainAxisSize: MainAxisSize.min,
                                             crossAxisAlignment:
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Padding(
-                                                padding: const EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        4.0, 4.0, 4.0, 4.0),
+                                                padding: const EdgeInsets.all(4.0),
                                                 child: SelectionArea(
                                                     child: Text(
                                                   FFLocalizations.of(context)
@@ -348,8 +340,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                         ),
                                       ),
                                       child: Padding(
-                                        padding: const EdgeInsetsDirectional.fromSTEB(
-                                            8.0, 8.0, 8.0, 8.0),
+                                        padding: const EdgeInsets.all(8.0),
                                         child: Column(
                                           mainAxisSize: MainAxisSize.max,
                                           crossAxisAlignment:
@@ -366,8 +357,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                               ),
                                             ),
                                             Padding(
-                                              padding: const EdgeInsetsDirectional
-                                                  .fromSTEB(4.0, 4.0, 4.0, 4.0),
+                                              padding: const EdgeInsets.all(4.0),
                                               child: SelectionArea(
                                                   child: AutoSizeText(
                                                 FFLocalizations.of(context)
@@ -446,9 +436,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                           ),
                                         ),
                                         child: Padding(
-                                          padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
-                                                  8.0, 8.0, 8.0, 8.0),
+                                          padding: const EdgeInsets.all(8.0),
                                           child: Column(
                                             mainAxisSize: MainAxisSize.min,
                                             crossAxisAlignment:
@@ -479,9 +467,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                                 ),
                                               ),
                                               Padding(
-                                                padding: const EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        4.0, 4.0, 4.0, 4.0),
+                                                padding: const EdgeInsets.all(4.0),
                                                 child: SelectionArea(
                                                     child: Text(
                                                   FFLocalizations.of(context)
@@ -563,9 +549,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                           ),
                                         ),
                                         child: Padding(
-                                          padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
-                                                  8.0, 8.0, 8.0, 8.0),
+                                          padding: const EdgeInsets.all(8.0),
                                           child: Column(
                                             mainAxisSize: MainAxisSize.min,
                                             crossAxisAlignment:
@@ -586,9 +570,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                                                 ),
                                               ),
                                               Padding(
-                                                padding: const EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        4.0, 4.0, 4.0, 4.0),
+                                                padding: const EdgeInsets.all(4.0),
                                                 child: SelectionArea(
                                                     child: Text(
                                                   FFLocalizations.of(context)
@@ -650,8 +632,7 @@ class _MessagesDetailsWidgetState extends State<MessagesDetailsWidget> {
                     borderRadius: BorderRadius.circular(12.0),
                   ),
                   child: Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(12.0, 12.0, 12.0, 12.0),
+                    padding: const EdgeInsets.all(12.0),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       crossAxisAlignment: CrossAxisAlignment.start,

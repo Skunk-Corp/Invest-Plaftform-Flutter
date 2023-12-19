@@ -104,8 +104,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                   ),
                   decoration: const BoxDecoration(),
                   child: Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(12.0, 12.0, 12.0, 12.0),
+                    padding: const EdgeInsets.all(12.0),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.end,
@@ -133,7 +132,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                 ),
               ),
               Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(12.0, 12.0, 12.0, 12.0),
+                padding: const EdgeInsets.all(12.0),
                 child: Container(
                   width: double.infinity,
                   constraints: const BoxConstraints(

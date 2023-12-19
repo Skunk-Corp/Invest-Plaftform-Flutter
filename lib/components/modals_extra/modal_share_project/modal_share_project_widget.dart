@@ -701,7 +701,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Align(
-                                alignment: const AlignmentDirectional(0.00, 0.05),
+                                alignment: const AlignmentDirectional(0.0, 0.05),
                                 child: FFButtonWidget(
                                   onPressed: () {
                                     print('Button pressed ...');
@@ -740,7 +740,7 @@ class _ModalShareProjectWidgetState extends State<ModalShareProjectWidget>
                                 ),
                               ),
                               Align(
-                                alignment: const AlignmentDirectional(0.00, 0.05),
+                                alignment: const AlignmentDirectional(0.0, 0.05),
                                 child: FFButtonWidget(
                                   onPressed: () {
                                     print('Button pressed ...');

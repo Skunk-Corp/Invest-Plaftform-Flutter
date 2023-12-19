@@ -101,7 +101,7 @@ class _ModalEnterPinWidgetState extends State<ModalEnterPinWidget>
                 borderRadius: BorderRadius.circular(16.0),
               ),
               child: Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(2.0, 2.0, 2.0, 2.0),
+                padding: const EdgeInsets.all(2.0),
                 child: Column(
                   mainAxisSize: MainAxisSize.max,
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -153,7 +153,12 @@ class _ModalEnterPinWidgetState extends State<ModalEnterPinWidget>
                                 fieldHeight: 50.0,
                                 fieldWidth: 44.0,
                                 borderWidth: 2.0,
-                                borderRadius: BorderRadius.circular(12.0),
+                                borderRadius: const BorderRadius.only(
+                                  bottomLeft: Radius.circular(12.0),
+                                  bottomRight: Radius.circular(12.0),
+                                  topLeft: Radius.circular(12.0),
+                                  topRight: Radius.circular(12.0),
+                                ),
                                 shape: PinCodeFieldShape.box,
                                 activeColor:
                                     FlutterFlowTheme.of(context).primaryText,
@@ -184,7 +189,7 @@ class _ModalEnterPinWidgetState extends State<ModalEnterPinWidget>
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Align(
-                                  alignment: const AlignmentDirectional(0.00, 0.05),
+                                  alignment: const AlignmentDirectional(0.0, 0.05),
                                   child: FFButtonWidget(
                                     onPressed: () {
                                       print('Button pressed ...');
@@ -225,7 +230,7 @@ class _ModalEnterPinWidgetState extends State<ModalEnterPinWidget>
                                   ),
                                 ),
                                 Align(
-                                  alignment: const AlignmentDirectional(0.00, 0.05),
+                                  alignment: const AlignmentDirectional(0.0, 0.05),
                                   child: FFButtonWidget(
                                     onPressed: () {
                                       print('Button pressed ...');

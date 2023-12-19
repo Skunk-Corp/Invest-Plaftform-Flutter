@@ -1,5 +1,4 @@
 import '/auth/firebase_auth/auth_util.dart';
-import '/backend/backend.dart';
 import '/components/modals/edit_profile_photo/edit_profile_photo_widget.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
@@ -88,7 +87,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
       body: SafeArea(
         top: true,
         child: Align(
-          alignment: const AlignmentDirectional(0.00, 0.00),
+          alignment: const AlignmentDirectional(0.0, 0.0),
           child: Container(
             constraints: const BoxConstraints(
               maxWidth: 530.0,
@@ -118,8 +117,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                           ),
                         ),
                         child: Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              2.0, 2.0, 2.0, 2.0),
+                          padding: const EdgeInsets.all(2.0),
                           child: AuthUserStreamWidget(
                             builder: (context) => Container(
                               width: 90.0,
@@ -273,14 +271,10 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                   )),
                 ),
                 Align(
-                  alignment: const AlignmentDirectional(0.00, 0.05),
+                  alignment: const AlignmentDirectional(0.0, 0.05),
                   child: FFButtonWidget(
                     onPressed: () async {
                       logFirebaseEvent('EDIT_PROFILE_SAVE_CHANGES_BTN_ON_TAP');
-
-                      await currentUserReference!.update(createUsersRecordData(
-                        displayName: _model.yourNameController.text,
-                      ));
                       context.pop();
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(

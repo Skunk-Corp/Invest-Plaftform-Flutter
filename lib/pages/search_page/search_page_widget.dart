@@ -111,7 +111,7 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
               elevation: 0.0,
             ),
             body: Align(
-              alignment: const AlignmentDirectional(0.00, -1.00),
+              alignment: const AlignmentDirectional(0.0, -1.0),
               child: Container(
                 width: double.infinity,
                 constraints: const BoxConstraints(
@@ -368,9 +368,7 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
                                               BorderRadius.circular(8.0),
                                         ),
                                         child: Padding(
-                                          padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
-                                                  8.0, 8.0, 8.0, 8.0),
+                                          padding: const EdgeInsets.all(8.0),
                                           child: Row(
                                             mainAxisSize: MainAxisSize.max,
                                             mainAxisAlignment:

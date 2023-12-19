@@ -6,6 +6,7 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:percent_indicator/percent_indicator.dart';
 import 'project_details_health_ai_model.dart';
 export 'project_details_health_ai_model.dart';
 
@@ -238,8 +239,7 @@ class _ProjectDetailsHealthAiWidgetState
                                     borderRadius: BorderRadius.circular(12.0),
                                   ),
                                   child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
-                                        2.0, 2.0, 2.0, 2.0),
+                                    padding: const EdgeInsets.all(2.0),
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(12.0),
                                       child: Image.asset(
@@ -258,7 +258,7 @@ class _ProjectDetailsHealthAiWidgetState
                                 children: [
                                   Text(
                                     FFLocalizations.of(context).getText(
-                                      'mxf4vrjw' /* HealthAi */,
+                                      'hq7ks14n' /* HealthAi */,
                                     ),
                                     style: FlutterFlowTheme.of(context)
                                         .headlineSmall,
@@ -277,6 +277,34 @@ class _ProjectDetailsHealthAiWidgetState
                                         'textOnPageLoadAnimation2']!),
                                   ),
                                 ],
+                              ),
+                              Expanded(
+                                child: Align(
+                                  alignment: const AlignmentDirectional(0.0, 0.0),
+                                  child: Padding(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                        0.0, 10.0, 0.0, 10.0),
+                                    child: CircularPercentIndicator(
+                                      percent: 0.5,
+                                      radius: 60.0,
+                                      lineWidth: 12.0,
+                                      animation: true,
+                                      animateFromLastPercent: true,
+                                      progressColor:
+                                          FlutterFlowTheme.of(context).primary,
+                                      backgroundColor:
+                                          FlutterFlowTheme.of(context).accent4,
+                                      center: Text(
+                                        FFLocalizations.of(context).getText(
+                                          's67gofip' /* 50% */,
+                                        ),
+                                        textAlign: TextAlign.end,
+                                        style: FlutterFlowTheme.of(context)
+                                            .headlineSmall,
+                                      ),
+                                    ),
+                                  ),
+                                ),
                               ),
                             ],
                           ),
@@ -324,7 +352,7 @@ class _ProjectDetailsHealthAiWidgetState
                                   width: 2.0,
                                 ),
                               ),
-                              alignment: const AlignmentDirectional(0.00, 0.00),
+                              alignment: const AlignmentDirectional(0.0, 0.0),
                               child: Padding(
                                 padding: const EdgeInsetsDirectional.fromSTEB(
                                     16.0, 0.0, 16.0, 0.0),
@@ -439,7 +467,7 @@ class _ProjectDetailsHealthAiWidgetState
                                       children: [
                                         Align(
                                           alignment:
-                                              const AlignmentDirectional(-0.91, 0.00),
+                                              const AlignmentDirectional(-0.91, 0.0),
                                           child: Container(
                                             width: 28.0,
                                             height: 28.0,
@@ -455,7 +483,7 @@ class _ProjectDetailsHealthAiWidgetState
                                         ),
                                         Align(
                                           alignment:
-                                              const AlignmentDirectional(-0.62, 0.00),
+                                              const AlignmentDirectional(-0.62, 0.0),
                                           child: Container(
                                             width: 28.0,
                                             height: 28.0,
@@ -471,7 +499,7 @@ class _ProjectDetailsHealthAiWidgetState
                                         ),
                                         Align(
                                           alignment:
-                                              const AlignmentDirectional(-0.35, 0.00),
+                                              const AlignmentDirectional(-0.35, 0.0),
                                           child: Container(
                                             width: 28.0,
                                             height: 28.0,
@@ -607,7 +635,7 @@ class _ProjectDetailsHealthAiWidgetState
                                       children: [
                                         Align(
                                           alignment:
-                                              const AlignmentDirectional(-0.91, 0.00),
+                                              const AlignmentDirectional(-0.91, 0.0),
                                           child: Container(
                                             width: 28.0,
                                             height: 28.0,
@@ -623,7 +651,7 @@ class _ProjectDetailsHealthAiWidgetState
                                         ),
                                         Align(
                                           alignment:
-                                              const AlignmentDirectional(-0.62, 0.00),
+                                              const AlignmentDirectional(-0.62, 0.0),
                                           child: Container(
                                             width: 28.0,
                                             height: 28.0,
@@ -639,7 +667,7 @@ class _ProjectDetailsHealthAiWidgetState
                                         ),
                                         Align(
                                           alignment:
-                                              const AlignmentDirectional(-0.35, 0.00),
+                                              const AlignmentDirectional(-0.35, 0.0),
                                           child: Container(
                                             width: 28.0,
                                             height: 28.0,

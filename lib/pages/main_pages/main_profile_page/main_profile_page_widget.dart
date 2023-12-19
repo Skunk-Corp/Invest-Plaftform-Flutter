@@ -151,7 +151,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                       color: FlutterFlowTheme.of(context).primaryBackground,
                     ),
                     child: Align(
-                      alignment: const AlignmentDirectional(0.00, -1.00),
+                      alignment: const AlignmentDirectional(0.0, -1.0),
                       child: SingleChildScrollView(
                         child: Column(
                           mainAxisSize: MainAxisSize.max,
@@ -171,7 +171,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                 color: FlutterFlowTheme.of(context)
                                     .secondaryBackground,
                               ),
-                              alignment: const AlignmentDirectional(-1.00, 0.00),
+                              alignment: const AlignmentDirectional(-1.0, 0.0),
                               child: Padding(
                                 padding: const EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 16.0, 0.0),
@@ -270,8 +270,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                         ),
                                       ),
                                       child: Padding(
-                                        padding: const EdgeInsetsDirectional.fromSTEB(
-                                            2.0, 2.0, 2.0, 2.0),
+                                        padding: const EdgeInsets.all(2.0),
                                         child: AuthUserStreamWidget(
                                           builder: (context) => ClipRRect(
                                             borderRadius:
@@ -421,7 +420,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                             ),
                                             Align(
                                               alignment: const AlignmentDirectional(
-                                                  0.90, 0.00),
+                                                  0.9, 0.0),
                                               child: Icon(
                                                 Icons.arrow_forward_ios,
                                                 color:
@@ -522,7 +521,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                               ),
                                               Align(
                                                 alignment: const AlignmentDirectional(
-                                                    0.90, 0.00),
+                                                    0.9, 0.0),
                                                 child: Icon(
                                                   Icons.arrow_forward_ios,
                                                   color: FlutterFlowTheme.of(
@@ -568,7 +567,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                   ),
                                 ),
                                 Align(
-                                  alignment: const AlignmentDirectional(0.00, 0.00),
+                                  alignment: const AlignmentDirectional(0.0, 0.0),
                                   child: Padding(
                                     padding: const EdgeInsetsDirectional.fromSTEB(
                                         16.0, 0.0, 16.0, 0.0),
@@ -599,8 +598,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                         ),
                                       ),
                                       child: Padding(
-                                        padding: const EdgeInsetsDirectional.fromSTEB(
-                                            20.0, 20.0, 20.0, 20.0),
+                                        padding: const EdgeInsets.all(20.0),
                                         child: Column(
                                           mainAxisSize: MainAxisSize.max,
                                           mainAxisAlignment:
@@ -610,7 +608,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                           children: [
                                             Align(
                                               alignment: const AlignmentDirectional(
-                                                  -1.00, -1.00),
+                                                  -1.0, -1.0),
                                               child: Column(
                                                 mainAxisSize: MainAxisSize.max,
                                                 crossAxisAlignment:
@@ -647,7 +645,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                             ),
                                             Align(
                                               alignment: const AlignmentDirectional(
-                                                  0.00, 0.00),
+                                                  0.0, 0.0),
                                               child: Padding(
                                                 padding: const EdgeInsetsDirectional
                                                     .fromSTEB(
@@ -709,12 +707,8 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                                             ),
                                                             child: Padding(
                                                               padding:
-                                                                  const EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          4.0,
-                                                                          4.0,
-                                                                          4.0,
-                                                                          4.0),
+                                                                  const EdgeInsets
+                                                                      .all(4.0),
                                                               child: InkWell(
                                                                 splashColor: Colors
                                                                     .transparent,
@@ -790,7 +784,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                                                               ),
                                                                               if (Theme.of(context).brightness == Brightness.dark)
                                                                                 Align(
-                                                                                  alignment: const AlignmentDirectional(1.00, -1.00),
+                                                                                  alignment: const AlignmentDirectional(1.0, -1.0),
                                                                                   child: Icon(
                                                                                     Icons.check_circle_rounded,
                                                                                     color: FlutterFlowTheme.of(context).primary,
@@ -933,12 +927,8 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                                             ),
                                                             child: Padding(
                                                               padding:
-                                                                  const EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          4.0,
-                                                                          4.0,
-                                                                          4.0,
-                                                                          4.0),
+                                                                  const EdgeInsets
+                                                                      .all(4.0),
                                                               child: InkWell(
                                                                 splashColor: Colors
                                                                     .transparent,
@@ -1015,7 +1005,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                                                               ),
                                                                               if (Theme.of(context).brightness == Brightness.light)
                                                                                 Align(
-                                                                                  alignment: const AlignmentDirectional(1.00, -1.00),
+                                                                                  alignment: const AlignmentDirectional(1.0, -1.0),
                                                                                   child: Icon(
                                                                                     Icons.check_circle_rounded,
                                                                                     color: FlutterFlowTheme.of(context).primary,

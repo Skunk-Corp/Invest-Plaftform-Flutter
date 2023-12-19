@@ -1,5 +1,3 @@
-import '/auth/firebase_auth/auth_util.dart';
-import '/backend/backend.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_drop_down.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
@@ -157,8 +155,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                                 ),
                               ),
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
-                                    2.0, 2.0, 2.0, 2.0),
+                                padding: const EdgeInsets.all(2.0),
                                 child: Container(
                                   width: 90.0,
                                   height: 90.0,
@@ -493,7 +490,7 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Align(
-                          alignment: const AlignmentDirectional(0.00, 0.05),
+                          alignment: const AlignmentDirectional(0.0, 0.05),
                           child: FFButtonWidget(
                             onPressed: () async {
                               logFirebaseEvent(
@@ -532,16 +529,11 @@ class _ModalProfileEditWidgetState extends State<ModalProfileEditWidget>
                           ),
                         ),
                         Align(
-                          alignment: const AlignmentDirectional(0.00, 0.05),
+                          alignment: const AlignmentDirectional(0.0, 0.05),
                           child: FFButtonWidget(
                             onPressed: () async {
                               logFirebaseEvent(
                                   'MODAL_PROFILE_EDIT_SAVE_CHANGES_BTN_ON_T');
-
-                              await currentUserReference!
-                                  .update(createUsersRecordData(
-                                displayName: _model.yourNameController1.text,
-                              ));
                               context.pop();
                               ScaffoldMessenger.of(context).showSnackBar(
                                 SnackBar(

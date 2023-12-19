@@ -103,7 +103,7 @@ class _ModalCreateProjectWidgetState extends State<ModalCreateProjectWidget>
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(12.0, 12.0, 12.0, 12.0),
+              padding: const EdgeInsets.all(12.0),
               child: Container(
                 width: double.infinity,
                 constraints: const BoxConstraints(
@@ -125,13 +125,12 @@ class _ModalCreateProjectWidgetState extends State<ModalCreateProjectWidget>
                   ),
                 ),
                 child: Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(2.0, 2.0, 2.0, 2.0),
+                  padding: const EdgeInsets.all(2.0),
                   child: Form(
                     key: _model.formKey,
                     autovalidateMode: AutovalidateMode.always,
                     child: Padding(
-                      padding: const EdgeInsetsDirectional.fromSTEB(
-                          20.0, 20.0, 20.0, 20.0),
+                      padding: const EdgeInsets.all(20.0),
                       child: Column(
                         mainAxisSize: MainAxisSize.max,
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -215,8 +214,7 @@ class _ModalCreateProjectWidgetState extends State<ModalCreateProjectWidget>
                                     ),
                                   ),
                                   child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
-                                        2.0, 2.0, 2.0, 2.0),
+                                    padding: const EdgeInsets.all(2.0),
                                     child: Stack(
                                       alignment: const AlignmentDirectional(0.0, 0.0),
                                       children: [
@@ -249,9 +247,7 @@ class _ModalCreateProjectWidgetState extends State<ModalCreateProjectWidget>
                                           ],
                                         ),
                                         Padding(
-                                          padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
-                                                  6.0, 6.0, 6.0, 6.0),
+                                          padding: const EdgeInsets.all(6.0),
                                           child: ClipRRect(
                                             borderRadius:
                                                 BorderRadius.circular(10.0),

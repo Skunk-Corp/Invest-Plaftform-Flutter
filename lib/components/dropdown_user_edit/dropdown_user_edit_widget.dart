@@ -41,7 +41,7 @@ class _DropdownUserEditWidgetState extends State<DropdownUserEditWidget> {
       mainAxisSize: MainAxisSize.min,
       children: [
         Padding(
-          padding: const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 16.0),
+          padding: const EdgeInsets.all(16.0),
           child: Container(
             width: 300.0,
             decoration: BoxDecoration(
